@@ -1087,6 +1087,7 @@ SET FOREIGN_KEY_CHECKS=1;
 SELECT COUNT(*) AS students FROM students;
 SELECT classID,COUNT(*) AS student_count FROM enrollments GROUP BY classID ORDER BY classID;
 
+
 -- ============================================================
 -- FINAL SEED VERIFICATION
 -- ============================================================
@@ -1099,6 +1100,7 @@ SELECT classID, COUNT(*) AS student_count
 FROM enrollments
 GROUP BY classID
 ORDER BY classID;
+
 
 -- Expected:
 -- total_students  = 250
