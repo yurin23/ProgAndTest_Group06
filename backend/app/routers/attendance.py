@@ -23,12 +23,10 @@ from app.services.attendance_service import (
     get_attendance_report,
 )
 
-
 router = APIRouter(
     prefix="/api/attendance",
     tags=["Attendance"],
 )
-
 
 # ============================================================
 # CREATE ATTENDANCE SESSION - LECTURER
@@ -60,7 +58,6 @@ def create_session(
         "attendanceMethod": session.attendanceMethod,
         "status": session.status,
     }
-
 
 # ============================================================
 # OPEN ATTENDANCE SESSION - LECTURER
@@ -149,7 +146,6 @@ def get_my_attendance_history(
         for attendance, session in results
     ]
 
-
 # ============================================================
 # STUDENT ATTENDANCE PERCENTAGE
 # ============================================================
@@ -163,7 +159,6 @@ def get_my_attendance_percentage(
         db=db,
         user_id=int(current_user["user_id"]),
     )
-
 
 # ============================================================
 # CLOSE ATTENDANCE SESSION - LECTURER
