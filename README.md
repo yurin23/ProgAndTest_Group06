@@ -1,11 +1,12 @@
 Project: Student Attendance System
+
 Guidelines for group projects
 
 1. Project Requirements
 
 Students are required to work in groups to analyze, design, implement, and test a software application. The project must follow the four stages below.
 
-     Stage 1 – Analysis and Requirements Specification
+Stage 1 – Analysis and Requirements Specification
 
 ·       Describe functional and non-functional requirements using natural language.
 
@@ -27,7 +28,7 @@ Stage 3 – Implementation
 
 ·       Organize the source code clearly and use version control.
 
-      Stage 4 – Testing
+Stage 4 – Testing
 
 ·       Create and execute test cases, perform unit testing, debugging, and manage identified defects.
 
@@ -40,6 +41,8 @@ Use case Diagram
 Class Diagram
 Data Model
 Interface Design Description
+
+
 3. Suggested Tools
 
 Document, source code, and team management: GitHub / GitLab
